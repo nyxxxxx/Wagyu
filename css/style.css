@@ -1,0 +1,156 @@
+.container-fluid {
+    --bs-gutter-x: 0;
+}
+
+.title {
+    font-size: 2.0rem;
+}
+p {
+    font-size: 1.3rem;
+}
+/* heder css */
+.header {
+    background-image: url(../images/banner.png);
+    height: 1080px;
+}
+
+.header-content {
+    padding-top: 300px;
+    color: white;
+}
+
+.header-content h1 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.header-content h4 {
+    border-top: 3px solid white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.nav-item a,
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    color: white;
+}
+
+/* main css */
+.title h3,
+.A-sec-title h3 {
+    font-size: 2.0rem;
+    color:rgb(99, 99, 99);
+    font-weight: 600;
+}
+
+/* A-div */
+.A-sec-title::after {
+    content: '';
+    display: block;
+    background-color: rgb(99, 99, 99);
+    height: 50px;
+    width: 2px;
+    margin: 20px 0;
+}
+
+/* B-div */
+/* banner-2 */
+.banner02 {
+    background-image: url(../images/banner02.png);
+    height: 1330px;
+    margin: 75px 0;
+}
+
+.banner02-conetent {
+    margin-top: 550px;
+    border: 2px solid whitesmoke;
+    backdrop-filter: blur(4px);
+    padding: 15px 0;
+}
+
+.banner02-conetent h1 {
+    color: whitesmoke;
+
+}
+
+/* C-div */
+/* D-div */
+/* banner-3 */
+.banner03 {
+    background-image: url(../images/banner03.png);
+    height: 600px;
+    margin: 75px 0;
+}
+
+.banner03-conetent {
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.banner03-conetent h1{
+    color: whitesmoke;
+    font-size: 3.0rem;
+    font-weight: bolder;
+}
+
+/* E-div */
+#circle-1,
+#circle-2,
+#circle-3 {
+    padding: 0 20px;
+}
+
+#circle-1::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: white;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    left: -20px;
+}
+
+#circle-2::before,
+#circle-3::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: black;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 41%;
+    left: -20px;
+}
+
+/* footer */
+.footer {
+    margin-top: 150px;
+    background-image: url(../images/footer.png);
+    height: 300px;
+    color: whitesmoke;
+}
+footer p {
+    font-size: 1.0rem;
+}
+.footer-container {
+    padding-top: 50px;
+}
+.cr {
+    border-top: 2px solid whitesmoke;
+    padding-top: 35px;
+}
